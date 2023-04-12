@@ -38,8 +38,6 @@ export function FormAddImage({ closeModal }: FormAddImageProps): JSX.Element {
           regex.test(files[0].type)
           ||
           'Somente são aceitos arquivos PNG, JPEG e GIF'
-
-
       }
     },
     title: {
