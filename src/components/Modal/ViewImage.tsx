@@ -30,7 +30,7 @@ export function ModalViewImage({
         <ModalBody p='0' >
           <Image src={imgUrl} maxW='900px' maxH='600px' />
           <Link href={imgUrl} isExternal>
-            <Text fontSize='14px' p='8px'>Abrir original</Text>
+            Abrir original
           </Link>
         </ModalBody>
       </ModalContent>
